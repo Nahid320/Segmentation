@@ -5,7 +5,7 @@ import PIL
 from matplotlib import pyplot
 
 # reading image into matrix
-img = Image.open('ski_image.jpg').resize((480,320), Image.ANTIALIAS)
+img = Image.open('daisy.jpg').resize((480,320), Image.ANTIALIAS)
 pixels = np.asarray(((img.getdata())))
 
 #total no of pixels
